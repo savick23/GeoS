@@ -1,0 +1,12 @@
+{
+    "name": "Geos_v02",
+    "description": "Протокол работы с тахеометром Leica",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "geos02.json",
+            "credentialsFile": "geos02_cred.json"
+        }
+    }
+}
