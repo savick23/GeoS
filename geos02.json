@@ -32,7 +32,8 @@
         "y": 120,
         "wires": [
             [
-                "f359b8466b66a476"
+                "f359b8466b66a476",
+                "96b94ff9d8ad6bd1"
             ]
         ]
     },
@@ -51,5 +52,30 @@
         "x": 480,
         "y": 120,
         "wires": []
+    },
+    {
+        "id": "96b94ff9d8ad6bd1",
+        "type": "switch",
+        "z": "089258dc8bb7ad24",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "f359b8466b66a476"
+            ]
+        ]
     }
 ]
