@@ -1,1 +1,55 @@
-[]
+[
+    {
+        "id": "089258dc8bb7ad24",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6507fedabe5538dc",
+        "type": "inject",
+        "z": "089258dc8bb7ad24",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "f359b8466b66a476"
+            ]
+        ]
+    },
+    {
+        "id": "f359b8466b66a476",
+        "type": "debug",
+        "z": "089258dc8bb7ad24",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 120,
+        "wires": []
+    }
+]
